@@ -7,13 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		820047F822590512007D3230 /* Coco-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 820047F722590512007D3230 /* Coco-Bold.otf */; };
+		820047FA225912EA007D3230 /* TuesdayController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820047F9225912EA007D3230 /* TuesdayController.swift */; };
+		820047FC22591638007D3230 /* WednesdayController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820047FB22591638007D3230 /* WednesdayController.swift */; };
+		820047FE22591875007D3230 /* ThursdayController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820047FD22591875007D3230 /* ThursdayController.swift */; };
+		8200480022591892007D3230 /* FridayController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820047FF22591892007D3230 /* FridayController.swift */; };
+		82004802225918B0007D3230 /* SaturdayController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82004801225918B0007D3230 /* SaturdayController.swift */; };
+		82004804225918D1007D3230 /* SundayController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82004803225918D1007D3230 /* SundayController.swift */; };
 		82C647E0221D69DE0010A33E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C647DF221D69DE0010A33E /* AppDelegate.swift */; };
-		82C647E2221D69DE0010A33E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C647E1221D69DE0010A33E /* ViewController.swift */; };
+		82C647E2221D69DE0010A33E /* MondayController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C647E1221D69DE0010A33E /* MondayController.swift */; };
 		82C647E5221D69DE0010A33E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82C647E3221D69DE0010A33E /* Main.storyboard */; };
 		82C647E7221D69DF0010A33E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82C647E6221D69DF0010A33E /* Assets.xcassets */; };
 		82C647EA221D69DF0010A33E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82C647E8221D69DF0010A33E /* LaunchScreen.storyboard */; };
 		82C647F5221D69DF0010A33E /* Todo3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C647F4221D69DF0010A33E /* Todo3Tests.swift */; };
 		82C64800221D69DF0010A33E /* Todo3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C647FF221D69DF0010A33E /* Todo3UITests.swift */; };
+		82C6480E221D6C360010A33E /* AddController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C6480D221D6C360010A33E /* AddController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +42,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		820047F722590512007D3230 /* Coco-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Coco-Bold.otf"; path = "../../../../../Library/Fonts/Coco-Bold.otf"; sourceTree = "<group>"; };
+		820047F9225912EA007D3230 /* TuesdayController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TuesdayController.swift; sourceTree = "<group>"; };
+		820047FB22591638007D3230 /* WednesdayController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WednesdayController.swift; sourceTree = "<group>"; };
+		820047FD22591875007D3230 /* ThursdayController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThursdayController.swift; sourceTree = "<group>"; };
+		820047FF22591892007D3230 /* FridayController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FridayController.swift; sourceTree = "<group>"; };
+		82004801225918B0007D3230 /* SaturdayController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaturdayController.swift; sourceTree = "<group>"; };
+		82004803225918D1007D3230 /* SundayController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SundayController.swift; sourceTree = "<group>"; };
 		82C647DC221D69DE0010A33E /* Todo3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Todo3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82C647DF221D69DE0010A33E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		82C647E1221D69DE0010A33E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		82C647E1221D69DE0010A33E /* MondayController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MondayController.swift; sourceTree = "<group>"; };
 		82C647E4221D69DE0010A33E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		82C647E6221D69DF0010A33E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		82C647E9221D69DF0010A33E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +62,7 @@
 		82C647FB221D69DF0010A33E /* Todo3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Todo3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		82C647FF221D69DF0010A33E /* Todo3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo3UITests.swift; sourceTree = "<group>"; };
 		82C64801221D69DF0010A33E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82C6480D221D6C360010A33E /* AddController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +114,19 @@
 			isa = PBXGroup;
 			children = (
 				82C647DF221D69DE0010A33E /* AppDelegate.swift */,
-				82C647E1221D69DE0010A33E /* ViewController.swift */,
 				82C647E3221D69DE0010A33E /* Main.storyboard */,
+				82C6480D221D6C360010A33E /* AddController.swift */,
 				82C647E6221D69DF0010A33E /* Assets.xcassets */,
 				82C647E8221D69DF0010A33E /* LaunchScreen.storyboard */,
 				82C647EB221D69DF0010A33E /* Info.plist */,
+				820047F722590512007D3230 /* Coco-Bold.otf */,
+				82C647E1221D69DE0010A33E /* MondayController.swift */,
+				820047F9225912EA007D3230 /* TuesdayController.swift */,
+				820047FB22591638007D3230 /* WednesdayController.swift */,
+				820047FD22591875007D3230 /* ThursdayController.swift */,
+				820047FF22591892007D3230 /* FridayController.swift */,
+				82004801225918B0007D3230 /* SaturdayController.swift */,
+				82004803225918D1007D3230 /* SundayController.swift */,
 			);
 			path = Todo3;
 			sourceTree = "<group>";
@@ -193,13 +217,16 @@
 				TargetAttributes = {
 					82C647DB221D69DE0010A33E = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
 					};
 					82C647EF221D69DF0010A33E = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
 						TestTargetID = 82C647DB221D69DE0010A33E;
 					};
 					82C647FA221D69DF0010A33E = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
 						TestTargetID = 82C647DB221D69DE0010A33E;
 					};
 				};
@@ -231,6 +258,7 @@
 			files = (
 				82C647EA221D69DF0010A33E /* LaunchScreen.storyboard in Resources */,
 				82C647E7221D69DF0010A33E /* Assets.xcassets in Resources */,
+				820047F822590512007D3230 /* Coco-Bold.otf in Resources */,
 				82C647E5221D69DE0010A33E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,8 +284,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				82C647E2221D69DE0010A33E /* ViewController.swift in Sources */,
+				82C6480E221D6C360010A33E /* AddController.swift in Sources */,
+				820047FA225912EA007D3230 /* TuesdayController.swift in Sources */,
+				82C647E2221D69DE0010A33E /* MondayController.swift in Sources */,
+				820047FE22591875007D3230 /* ThursdayController.swift in Sources */,
+				82004802225918B0007D3230 /* SaturdayController.swift in Sources */,
+				82004804225918D1007D3230 /* SundayController.swift in Sources */,
+				820047FC22591638007D3230 /* WednesdayController.swift in Sources */,
 				82C647E0221D69DE0010A33E /* AppDelegate.swift in Sources */,
+				8200480022591892007D3230 /* FridayController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,13 +470,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KH2UHCDNT4;
 				INFOPLIST_FILE = Todo3/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = KiyotoRyuman.Todo3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -453,13 +489,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KH2UHCDNT4;
 				INFOPLIST_FILE = Todo3/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = KiyotoRyuman.Todo3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -479,7 +516,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = KiyotoRyuman.Todo3Tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Todo3.app/Todo3";
 			};
@@ -500,7 +537,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = KiyotoRyuman.Todo3Tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Todo3.app/Todo3";
 			};
@@ -520,7 +557,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = KiyotoRyuman.Todo3UITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = Todo3;
 			};
@@ -540,7 +577,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = KiyotoRyuman.Todo3UITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = Todo3;
 			};
